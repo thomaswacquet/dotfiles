@@ -1,0 +1,2 @@
+#!/bin/bash
+rofi -show window -sidebar-mode -modi "calc,clip:~/.config/bin/greenclip print,drun,window,web:~/.config/bin/rofi-web.sh,file:~/.config/bin/rofi-file.sh,power-menu:~/.config/bin/power-menu --confirm='' --choices='suspend/shutdown/reboot'" -no-history -display-drun app 

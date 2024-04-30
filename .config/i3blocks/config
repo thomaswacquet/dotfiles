@@ -1,0 +1,29 @@
+#[TODO]
+#command=echo $(~/.config/bin/check-todo.sh)" "
+#interval=60
+
+# [MONTH]
+# command=echo $(shuf -n 1 ~/Documents/MONTH)" "  #" BE A LEADER "
+# interval=once
+
+# [LOVE]
+# command=echo " "$(shuf -n 1 ~/Documents/GOALS)" " #" BE A LEADER "
+# interval=once
+
+# [PERSEVERANCE]
+# command=echo "   Inspire by example "
+# interval=once
+
+[COURAGE]
+command=echo "   courage "
+interval=once
+
+
+[DATE]
+command=date +" %d %b "
+interval=3600
+
+
+[TIME_DATE]
+command=date +" %H:%M "
+interval=60
