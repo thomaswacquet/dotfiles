@@ -27,7 +27,7 @@ configuration {
     anchor:   west;
     height: 100%;
     
-    width: 25em;
+    width: 20em;
     background-color: @background-color;
     border:           3;
     border-color:     @bordercolor;

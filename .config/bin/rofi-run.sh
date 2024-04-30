@@ -1,2 +1,3 @@
 #!/bin/bash
-rofi -show window -sidebar-mode -modi "calc,clip:~/.config/bin/greenclip print,drun,window,web:~/.config/bin/rofi-web.sh,file:~/.config/bin/rofi-file.sh,power-menu:~/.config/bin/power-menu --confirm='' --choices='suspend/shutdown/reboot'" -no-history -display-drun app 
+#  :~/.config/bin/rofi-notes.sh
+rofi -show drun -sidebar-mode -modi "calc,  :~/.config/bin/rofi-web.sh,drun,  :~/.config/bin/rofi-file.sh,  :~/.config/bin/power-menu" -no-history -display-drun "  " -display-calc "  "

@@ -15,7 +15,7 @@
 - zsh
 - oh-my-zsh
 - htop
-- greenclip
+- feh
 - alsamixer
 - ranger
 - w3m
@@ -24,3 +24,8 @@
 - powerlevel10k/powerlevel10k
 - dracula theme gtk3
 - fonts-font-awesome
+
+## Useful commands
+sudo adduser thomaswacquet sudo
+nano /etc/fstab
+echo -e "if [[ "$(tty)" == '/dev/tty1' ]]; then\nexec startx\nfi" > /etc/profile

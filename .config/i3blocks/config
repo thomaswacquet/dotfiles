@@ -2,17 +2,24 @@
 #command=echo $(~/.config/bin/check-todo.sh)" "
 #interval=60
 
-# [MONTH]
-# command=echo $(shuf -n 1 ~/Documents/MONTH)" "  #" BE A LEADER "
-# interval=once
+[TASK]
+command=echo " Aller chercher plus loin dans les contigs malgré les kmers 'already visited' "  #" BE A LEADER "
+interval=once
 
-# [LOVE]
-# command=echo " "$(shuf -n 1 ~/Documents/GOALS)" " #" BE A LEADER "
-# interval=once
+[MONTH]
+command=echo " "$(shuf -n 1 ~/MONTH)" "  #" BE A LEADER "
+interval=once
+
+[GOALS]
+command=echo " "$(shuf -n 1 ~/GOALS)" " #" BE A LEADER "
+interval=once
 
 # [PERSEVERANCE]
 # command=echo "   Inspire by example "
 # interval=once
+# [pomo]
+# command=~/.config/bin/pomodoro/pomo_state.py
+# interval=1
 
 [COURAGE]
 command=echo "   courage "
