@@ -2,17 +2,15 @@
 #command=echo $(~/.config/bin/check-todo.sh)" "
 #interval=60
 
-[TASK]
-command=echo " Aller chercher plus loin dans les contigs malgré les kmers 'already visited' "  #" BE A LEADER "
-interval=once
 
-[MONTH]
-command=echo " "$(shuf -n 1 ~/MONTH)" "  #" BE A LEADER "
-interval=once
 
-[GOALS]
-command=echo " "$(shuf -n 1 ~/GOALS)" " #" BE A LEADER "
-interval=once
+; [MONTH]
+; command=echo " "$(shuf -n 1 ~/MONTH)" "  #" BE A LEADER "
+; interval=once
+
+; [GOALS]
+; command=echo " "$(shuf -n 1 ~/GOALS)" " #" BE A LEADER "
+; interval=once
 
 # [PERSEVERANCE]
 # command=echo "   Inspire by example "
