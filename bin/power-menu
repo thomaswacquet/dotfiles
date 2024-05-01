@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+# This script defines just a mode for rofi instead of being a self-contained
+# executable that launches rofi by itself. This makes it more flexible than
+# running rofi inside this script as now the user can call rofi as one pleases.
+# For instance:
+#
+#   rofi -show powermenu -modi powermenu:./rofi-power-menu
+#
+# See README.md for more information.
+
+
+if [[ "$@" != "" ]]
+then
+    if [[ $(echo "$@" | grep Suspend) ]]
+    then
+        systemctl suspend
+    elif [[ $(echo "$@" | grep "Shutdown") ]]
+    then
+        systemctl poweroff
+    elif [[ $(echo "$@" | grep "Reboot") ]]
+    then
+        systemctl reboot
+    fi
+    exit 0
+
+fi
+
+echo -e "\\tSuspend"
+echo -e "\\tShutdown"
+echo -e "\\tReboot"

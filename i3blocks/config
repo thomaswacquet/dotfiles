@@ -1,7 +1,6 @@
 [TASK]
 command=~/.config/bin/i3blocks-notes.sh
 interval=once
-color=#F1FA8C
 
 [COURAGE]
 
