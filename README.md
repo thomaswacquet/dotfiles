@@ -28,4 +28,4 @@
 ## Useful commands
 sudo adduser thomaswacquet sudo
 nano /etc/fstab
-echo -e "if [[ "$(tty)" == '/dev/tty1' ]]; then\nexec startx\nfi" > /etc/profile
+echo -e "if [[ "$(tty)" == '/dev/tty1' ]]; then\nexec startx\nfi" >> /etc/profile
